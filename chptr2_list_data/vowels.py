@@ -7,8 +7,7 @@ for letter in word:
             found.append(letter)
 
 if len(found) == 0:
-    print("No wovels found in the word: ", word)
+    print("No vowels found in the word: ", word)
 else:
     for vowel in found:
         print(vowel)
-
